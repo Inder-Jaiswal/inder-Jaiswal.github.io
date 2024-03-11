@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ @model IEnumerable<Port.Models.DescriptionModel>
+
+<div class="row bg-dark">
+    <div class="bg-dark text-center text-light">
+        <pre class="fs-1 mt-5 d-block col-12"> 
+            Developer who loves 
+            Tinkering Around
+        </pre>
+        <pre class=" col-12 d-block">I am a Developer, and my goal is to make things for
+            users,Let's work together to make your products and 
+            making you more successful. Looking Forward to work with you.
+        </pre>
+    </div>
+    <div class="d-block h-auto mt-4">
+    @*     @foreach( var project in Model)
+        {
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/images/Screenshot 2023-09-10 204407.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@Html.DisplayFor(projectItem => project.Name)</h5>
+                    <p class="card-text">@Html.DisplayFor(projectItem => project.Description).</p>
+                    <p class="card-text">@Html.DisplayFor(projectItem => project.Id)</p>
+                </div>
+            </div>
+        } *@
+    </div>
+</div>
+<div class="row text-center text-dark m-5">
+    <h3>I have worked in the past with few amazing folks at :</h3>
+</div>
+<div class="row bg-dark">
+    <div class="col-7 text-center">
+        <p class = "fs-1 text-light font-weight-bold mt-4"> Let's Collaborate!</p>
+        <pre class="text-light">
+            Let's try to push your goals to new heights?
+                        Time to find Out
+        </pre>
+        <button type ="button" class="btn btn-outline-dark btn-lg">Let's Connect</button>
+    </div>
+    <div class="col-5 text-center my-4 ">
+            @foreach( var project in Model)
+        {
+        <div class="card rounded-2" style="width: 18rem;">
+        <img src="./assets/images/Screenshot 2023-09-10 204407.png" class="card-img-top h" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">@Html.DisplayFor(projectItem => project.Name)</h5>
+        <p class="card-text">@Html.DisplayFor(projectItem => project.Description).</p>
+        <p class="card-text">@Html.DisplayFor(projectItem => project.Id)</p>
+        </div>
+        </div>
+        }
+    </div>
+</div>
+
