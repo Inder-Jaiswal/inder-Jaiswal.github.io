@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inder Jaiswal</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop">
+                        <img src="images/exit.svg" alt="exit menu">
+                    </li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="https://www.linkedin.com/in/inderjasiwal/">Linkedin</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <img src="images/server.svg" alt="server graphic" class="server">
+            
+            <h1> Inder </h1>
+            <p class="subhead">Full stack Developer in .net and angular.js deveopment.</p>
+
+            <img src="images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+        </section>
+    </div>
+
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/icon-1.svg" alt="Calendar icon">
+                    <p><p>
+                </li>
+                <li>
+                    <img src="images/icon-2.svg" alt="Calendar icon">
+                    <p></p>
+                </li>
+                <li>
+                    <img src="images/icon-3.svg" alt="Calendar icon">
+                    <p></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="gray-container bg-dark tezt cc">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <blockquote><blockquote>
+                        <figcaption></figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <blockquote></figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+   
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#"></a>
+                <p class="address">Delhi NCR<br>India</p>
+                <ul class="footer-links">
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+    
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+
+        exit.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+
+    </script>
+
+</body>
+</html>
