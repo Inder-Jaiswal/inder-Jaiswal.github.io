@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "liWvtCuRWTbODIaIQdr+B6Dhnt65qIGnE3uyVNF84zRdR4LkCC+eOihky5UvA4hoV49KDvZZ2M3Av7BAhG2Lgg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ijais\\inder-Jaiswal.github.io\\Services\\Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ijais\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\ijais\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ijais\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\ijais\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ijais\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -21,6 +21,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ijais\\inder-Jaiswal.github.io\\Port\\wwwroot\\js\\App\\app.js",
+      "PackagePath": "staticwebassets\\js\\App\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\ijais\\inder-Jaiswal.github.io\\Port\\wwwroot\\js\\angular.min.js",
+      "PackagePath": "staticwebassets\\js\\angular.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ijais\\inder-Jaiswal.github.io\\Port\\wwwroot\\js\\controllers\\HomeCtrl.js",
+      "PackagePath": "staticwebassets\\js\\controllers\\HomeCtrl.js"
+    },
+    {
+      "Id": "C:\\Users\\ijais\\inder-Jaiswal.github.io\\Port\\wwwroot\\js\\controllers\\ProductCtrl.js",
+      "PackagePath": "staticwebassets\\js\\controllers\\ProductCtrl.js"
+    },
+    {
+      "Id": "C:\\Users\\ijais\\inder-Jaiswal.github.io\\Port\\wwwroot\\js\\services\\DataService.js",
+      "PackagePath": "staticwebassets\\js\\services\\DataService.js"
+    },
+    {
       "Id": "C:\\Users\\ijais\\inder-Jaiswal.github.io\\Port\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

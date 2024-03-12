@@ -8,11 +8,24 @@
     ".NETCoreApp,Version=v6.0": {
       "Port/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "Microsoft.DotNet.ProjectModel": "1.0.0-rc3-1-003177",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16",
+          "Services": "1.0.0"
         },
         "runtime": {
           "Port.dll": {}
+        }
+      },
+      "AutoMapper/13.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.0"
+          }
         }
       },
       "Humanizer/2.14.1": {
@@ -1143,6 +1156,17 @@
             "assemblyVersion": "1.0.500.0",
             "fileVersion": "1.0.500.0"
           }
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
       },
       "Microsoft.NET.StringTools/17.3.2": {
@@ -2314,6 +2338,20 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "Data/1.0.0": {
+        "runtime": {
+          "Data.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Data": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {}
+        }
       }
     }
   },
@@ -2322,6 +2360,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "path": "automapper/13.0.1",
+      "hashPath": "automapper.13.0.1.nupkg.sha512"
     },
     "Humanizer/2.14.1": {
       "type": "package",
@@ -2847,6 +2892,20 @@
       "sha512": "sha512-ODnV5S/TCEMyzjlLN+F9c0tprb0GSI/SU19Ray8u1m1o758Dg9G5mbUIVa9u43CE/pD2NuOK3Aoqk28B9j8ZJw==",
       "path": "microsoft.extensions.dependencymodel/1.0.500-preview2-1-003177",
       "hashPath": "microsoft.extensions.dependencymodel.1.0.500-preview2-1-003177.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "path": "microsoft.extensions.options/6.0.0",
+      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
     },
     "Microsoft.NET.StringTools/17.3.2": {
       "type": "package",
@@ -3708,6 +3767,16 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

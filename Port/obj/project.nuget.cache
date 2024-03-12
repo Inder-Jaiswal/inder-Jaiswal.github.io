@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TjpEwGiw2AqyF/y2zqf804sFlFB5iEQMeHedBqXqhXx4ji1cchy3HgFLQRbDy7d/1FM15Zob/rHFEk0CwY7aPA==",
+  "dgSpecHash": "46nInj6yJcgzFwTok1y0HrGc6sYeWiT6NnEUTjMt3x/V/fVSWqmNxZezat76/Do+AFA1T9hWFirY9mL0taOVOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ijais\\inder-Jaiswal.github.io\\Port\\Port.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ijais\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ijais\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ijais\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ijais\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -79,6 +80,8 @@
     "C:\\Users\\ijais\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\ijais\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\ijais\\.nuget\\packages\\microsoft.extensions.dependencymodel\\1.0.500-preview2-1-003177\\microsoft.extensions.dependencymodel.1.0.500-preview2-1-003177.nupkg.sha512",
+    "C:\\Users\\ijais\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\ijais\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\ijais\\.nuget\\packages\\microsoft.net.stringtools\\17.3.2\\microsoft.net.stringtools.17.3.2.nupkg.sha512",
     "C:\\Users\\ijais\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ijais\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

@@ -1,3 +1,6 @@
+using Port.Data.Repository;
+using Port.Services;
+
 namespace Port
 {
     public class Program
@@ -9,7 +12,10 @@ namespace Port
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddRazorPages();
-
+            builder.Services.AddScoped<IHomeRepository,HomeRepository>();
+            builder.Services.AddScoped<IHomeService,HomeService>();
+            builder.Services.AddScoped<HomeService>();
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             var app = builder.Build();
 
