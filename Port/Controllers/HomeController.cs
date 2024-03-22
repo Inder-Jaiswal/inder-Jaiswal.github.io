@@ -5,6 +5,7 @@ using Port.Models;
 using Port.Services;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
 using System.Xml.Linq;
 using static Port.Models.DescriptionModel;
@@ -27,8 +28,9 @@ namespace Port.Controllers
         public IActionResult Index()
         {
             var listPD = _mapper.Map<List<DescriptionModel>>(_homeService.GetHomes());
-            return View(listPD);
+            return View(JsonResult(listPD),AllowNullAttribute));
         }
+        
 
         //public IActionResult Privacy()
         //{
